@@ -13,6 +13,12 @@ public interface Consumer<T> {
 		};
 	}
 	
+	public static void ConsumerApple(Apple[] apps,Consumer<Apple>c) {
+		for(Apple app:apps) {
+			c.accept(app);
+		}
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
