@@ -2,7 +2,20 @@
 public class Apple {
 	
 	public String color;
-	public String weight;
+	public double weight;
+	
+	public void setcolor(String color) {
+		this.color=color;
+	}
+	public String getcolor() {
+		return color;
+	}
+	public void setweight(double weight) {
+		this.weight=weight;
+	}
+	public double getweight() {
+		return weight;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
