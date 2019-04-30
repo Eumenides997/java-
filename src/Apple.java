@@ -16,6 +16,9 @@ public class Apple {
 	public double getweight() {
 		return weight;
 	}
+	public String a() {
+		return "ÑÕÉ«:"+color+"ÖØÁ¿:"+weight;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
