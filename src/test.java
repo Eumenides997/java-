@@ -16,6 +16,14 @@ public class test {
 		ap.setcolor("绿色");
 		ap.setweight(2);
 		a.add(ap);
+		Apple ab=new Apple();
+		ab.setcolor("红色");
+		ab.setweight(2.5);
+		a.add(ab);
+		Apple az=new Apple();
+		az.setcolor("黄色");
+		az.setweight(1.5);
+		a.add(az);
 /*		System.out.println(ap.getcolor()+"\n"+ap.getweight());
 		System.out.println(a.get(0).color+"\n"+a.get(0).weight+"\n"+a.get(0).a());*/
 		
@@ -28,6 +36,10 @@ public class test {
 			}
 			
 		});//内部类
+		
+		ConsumerApple(a,t->{
+			System.out.println(t.a());
+		});//lambda表达式
 		
 }
 }
